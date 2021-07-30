@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     # Local
     'users.apps.UsersConfig',
     'pages.apps.PagesConfig',
+    'articles.apps.ArticlesConfig',
 
     # 3rd Party
     'crispy_forms',
@@ -46,6 +47,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+TIME_ZONE = 'Asia/Kolkata'
+USE_TZ = True
 
 
 MIDDLEWARE = [
