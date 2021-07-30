@@ -9,7 +9,7 @@ from .models import CustomUser
 class CustomUserCreationForm(UserCreationForm):
     class Meta(UserCreationForm.Meta):
         model = CustomUser
-        fields = UserCreationForm.Meta.fields + ('age',)
+        fields = ('username', 'email', 'age', )
 
 # username, email, password : default
 
@@ -17,4 +17,4 @@ class CustomUserCreationForm(UserCreationForm):
 class CustomUserChangeForm(UserChangeForm):
     class Meta:
         model = CustomUser
-        fields = UserChangeForm.Meta.fields
+        fields = ('username', 'email', 'age', )
