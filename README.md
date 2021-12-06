@@ -16,7 +16,7 @@ This repository contains the source code for some beginner-friendly Django web p
 - Create Django forms for blog entries
 - Implement log in, log out, sign up user authentication system
 
-## 4. Newspaper website
+## 4. Journal website
 - Build and test a _News_ site
 - Demonstrate CRUD (Create-Read-Update-Delete) functionality
 - Introduces apps for static pages
